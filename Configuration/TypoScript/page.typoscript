@@ -17,6 +17,17 @@ page {
                     10 = EXT:frontend/Resources/Private/Templates
                     20 = EXT:typografix1/Resources/Private/Templates
                 }             
+                dataProcessing {
+                    10 = menu
+                    10 {
+                        levels = 2
+                        as = headerMenu
+                        expandAll = 1
+                        includeSpacer = 1
+                        titleField = nav_title
+                   }
+                
+                }
         }
 }
 
